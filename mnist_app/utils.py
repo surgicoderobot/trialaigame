@@ -36,7 +36,7 @@ class Network(nn.Module):
 
 model = Network()
 
-model.load_state_dict(torch.load('/Users/nabanibanik/Desktop/mnist_app/MNIST_model.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('mnist_app/MNIST_model.pth', map_location=torch.device('cpu')))
 model.eval()
 
 
