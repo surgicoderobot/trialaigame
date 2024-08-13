@@ -45,7 +45,7 @@ def load_mnist_images():
     Loads MNIST images from the 'mnist_images' directory and returns them as a list of arrays.
     """
     mnist_images = []
-    mnist_dir = "./mnist_images"
+    mnist_dir = "mnist_app/mnist_images"
     for file_name in os.listdir(mnist_dir):
         if file_name.endswith('.jpg'):
             img_path = os.path.join(mnist_dir, file_name)
