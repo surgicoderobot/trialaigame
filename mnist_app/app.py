@@ -5,7 +5,7 @@ from PIL import Image  # Correct import
 import utils
 
 # Canvas settings
-stroke_width = 30
+stroke_width = 10
 
 st.sidebar.title("Draw a Digit")
 canvas_result = st_canvas(
